@@ -1,3 +1,60 @@
+# React 
+
+## Lab: 37 - React I
+
+Create an Odometer web page using ReactJS.
+
+*Author: Natalie Sinner and Harry Potter*
+
+----
+
+## Description
+Display an odometer with 4 digits
+Pad with zeroes as needed (e.g. 0045)
+JavaScript has a method for this. Research as needed.
+Add buttons to increment the “miles” by 1, 10, 100 and 1000.
+Roll over when odometer value exceeds 9999
+Maintain any “extra” amount when rolling over.
+The root App component should contain Odometer,Header and Footer components.
+You decide when appropriate to use class based or functional components.
+Header component should receive a text value via props.
+Footer component should receive a trademark value via props.
+Odometer component should store numeric value in it’s state.
+Remember to update state in the React way.
+
+---
+
+### Getting Started
+Clone this repository to your local machine.
+
+```
+$ git clone [https://github.com/nsinner1/odometer]
+```
+
+### To run the program from VS Code:
+Select ```File``` -> ```Open``` -> ```Odometer```
+
+Next navigate to the location you cloned the Repository.
+
+Double click on the ```odometer/src``` directory.
+
+Then select and open ```App.js```
+
+---
+
+### Change Log
+1.3: *Implemented logic for odometer* - 1 Oct 2020 
+1.2: *Created Footer.js, Header.js, Odometer.js* - 30 Sept 2020  
+1.1: *Started React App* - 30 Sept 2020  
+
+
+------------------------------
+For more information on Markdown: https://www.markdownguide.org/cheat-sheet
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
